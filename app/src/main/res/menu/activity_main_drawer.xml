@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Inicio" />
+        <item
+            android:id="@+id/nav_calcular"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Calcular Recorrido" />
+        <item
+            android:id="@+id/nav_mapa"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Informacion" />
+        <item
+            android:id="@+id/nav_gasolineras"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Gasolineras" />
+        <item
+            android:id="@+id/nav_consejos"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Consejos" />
+        <item
+            android:id="@+id/nav_acercade"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Acerca De" />
+        <item
+            android:title=" " />
+        <item
+            android:title=" " />
+        <item
+            android:id="@+id/nav_cerrar"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cerrar Sesion" />
+
+    </group>
+</menu>
