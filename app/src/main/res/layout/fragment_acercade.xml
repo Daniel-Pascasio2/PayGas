@@ -4,19 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.Inicio">
-
-    <TextView
-        android:id="@+id/text_home"
+    tools:context=".ui.Inicio"
+    android:background="#212530">
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:padding="10dp"
+            android:text="Informacion de la aplicacion "
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textFontWeight="600"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Somos una empresa tecnológica que se basa en una aplicación de beneficio para el usuario conductor, te invitamos a conocer nuestra forma de trabajo para lograr un proyecto con innovación. \nConoce nuestra estrategia de negocio para desarrollar que ayuden a la economía del conductor en los gastos de la gasolina cambiantes, estudiando al usuario en varios factores.\nOfrecemos una idea innovadora, tecnológica y futurista, para rastrear tu kilometraje, consumo y costos de gasolina. Al usar esta aplicación, puede realizar un seguimiento de los gastos del automóvil, el llenado y consumo de combustible, los costos/precios de la gasolina y ahorrar dinero."
+            android:textColor="#FFFFFF"
+            android:textFontWeight="600"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:padding="10dp"
+            android:text="Equipo"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textFontWeight="600"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="189dp"
+            android:padding="10dp"
+            android:text="1) Johanna Isabel Cerón Arias\n
+2) Dennis Josué Gálvez Rosales\n
+3) Berenise Claribel Palacios\n
+4) Luis Eduardo Iraheta Coto\n
+5) José Daniel Pascasio Calderón\n
+6) Edwin Laureano Paz Juárez\n
+7) Donovan Ernesto Mejía Orellana"
+
+            android:textColor="#FFFFFF"
+            android:textFontWeight="600"
+            android:textSize="20sp"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
