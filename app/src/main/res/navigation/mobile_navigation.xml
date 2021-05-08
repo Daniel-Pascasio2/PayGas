@@ -31,12 +31,12 @@
     <fragment
         android:id="@+id/nav_gasolineras"
         android:name="com.example.paygas.ui.Gasolineras"
-        android:label="Informacion"
+        android:label="Gasolineras"
         tools:layout="@layout/fragment_gasolineras" />
     <fragment
         android:id="@+id/nav_consejos"
         android:name="com.example.paygas.ui.Consejos"
-        android:label="Informacion"
+        android:label="Consejos"
         tools:layout="@layout/fragment_consejos" />
     <fragment
         android:id="@+id/nav_acercade"

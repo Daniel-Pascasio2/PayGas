@@ -4,19 +4,222 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.Inicio">
+    tools:context=".ui.Gasolineras"
+    android:background="#212530">
 
-    <TextView
-        android:id="@+id/text_home"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
-        android:textAlignment="center"
-        android:textSize="20sp"
+    <LinearLayout
+        android:layout_width="342dp"
+        android:layout_height="729dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:padding="10dp"
+            android:text="Estaciones y precios "
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textFontWeight="600"
+            android:textSize="24sp" />
+
+        <FrameLayout
+            android:id="@+id/view_exaco"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:background="#2f2e41">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <FrameLayout
+                    android:id="@+id/view_logotexaco"
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageViewtexaco"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/texaco_logo" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/view_text_texaco"
+                    android:layout_width="111dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/textView_texaco"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="TEXACO \nRegular: $ 2.59
+                                     \nEspecial: $ 2.60 \nDiesel: $2.58"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+        <FrameLayout
+            android:id="@+id/view_puma"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:background="#2f2e41"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <FrameLayout
+                    android:id="@+id/view_logopuma"
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView_puma"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/puma_logo" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/view_text_puma"
+                    android:layout_width="111dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/textView_puma"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="PUMA \nRegular: $ 2.60
+                                     \nEspecial: $ 2.64
+                                     \nDiesel: $2.55"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view_dlc"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:background="#2f2e41"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <FrameLayout
+                    android:id="@+id/view_logodlc"
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView_dlc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/dlc_logo" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/view_text_dlc"
+                    android:layout_width="111dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/textView_dlc"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="DLC \nRegular: $ 2.57
+                                     \nEspecial: $ 2.61
+                                     \nDiesel: $2.53"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/view_uno"
+            android:layout_width="match_parent"
+            android:layout_height="133dp"
+            android:background="#2f2e41"
+            android:layout_marginTop="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <FrameLayout
+                    android:id="@+id/view_logouno"
+                    android:layout_width="2dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <ImageView
+                        android:id="@+id/imageView_uno"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="20dp"
+                        app:srcCompat="@drawable/uno_logo" />
+                </FrameLayout>
+
+                <FrameLayout
+                    android:id="@+id/view_text_uno"
+                    android:layout_width="111dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" >
+
+                    <TextView
+                        android:id="@+id/textView_uno"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="UNO \nRegular: $ 2.61
+                                     \nEspecial: $ 2.66
+                                     \nDiesel: $2.58"
+                        android:textColor="#FFFFFF"
+                        android:textSize="24sp" />
+
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

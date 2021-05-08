@@ -12,7 +12,11 @@
         <activity
             android:name=".MenuUser"
             android:label="@string/title_activity_menu_user"
-            android:theme="@style/Theme.PayGas.NoActionBar"></activity>
+            android:theme="@style/Theme.PayGas.NoActionBar" />
+        <activity
+            android:name=".MapaActivity"
+            android:label="Mapa"
+            android:theme="@style/Theme.PayGas.NoActionBar" />
         <activity android:name=".Loggin">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
